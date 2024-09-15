@@ -1,0 +1,25 @@
+{
+  "name": "allure-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manocemas/allure-service.git"
+  },
+  "author": "Breno Martins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manocemas/allure-service/issues"
+  },
+  "homepage": "https://github.com/manocemas/allure-service#readme",
+  "devDependencies": {
+    "allure-commandline": "^2.14.0",
+    "allure-cypress": "^3.0.0-beta.12",
+    "cypress": "^13.14.2"
+  }
+}
